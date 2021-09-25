@@ -1,5 +1,4 @@
 # Orientação a Objetos e SOLID para Ninjas
-#solid/java
 
 - [x] 2.1 Um exemplo de classe não coesa
 - [x] 2.4 Ua pitada de encapsulamento.
