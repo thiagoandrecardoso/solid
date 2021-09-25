@@ -1,10 +1,10 @@
 package DIP.bad_example;
 
-public class NotaFiscal {
+public class Invoice {
     private double imposto;
     private double valor;
 
-    public NotaFiscal(double imposto, double valor) {
+    public Invoice(double imposto, double valor) {
         this.imposto = imposto;
         this.valor = valor;
     }

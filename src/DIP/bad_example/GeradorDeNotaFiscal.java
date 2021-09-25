@@ -10,10 +10,10 @@ public class GeradorDeNotaFiscal {
         this.dao = dao;
     }
 
-    public NotaFiscal gera(Fatura fatura) {
+    public Invoice gera(CommercialInvoice fatura) {
         double valor = fatura.getValorMensal();
 
-        NotaFiscal nf = new NotaFiscal(
+        Invoice nf = new Invoice(
                 valor,
                 impostoSimplesSobreO(valor)
         );
