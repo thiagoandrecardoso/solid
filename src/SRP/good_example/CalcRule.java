@@ -1,6 +1,6 @@
-package good_example;
+package SRP.good_example;
 
-import bad_example.Employee;
+import SRP.bad_example.Employee;
 
 public interface CalcRule {
     double calc(Employee e);

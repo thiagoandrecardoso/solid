@@ -1,8 +1,8 @@
-package bad_example;
+package SRP.bad_example;
 
-import good_example.CalcRule;
-import good_example.FifteenOrTwentyPercent;
-import good_example.TeenOrTwentyPercent;
+import SRP.good_example.CalcRule;
+import SRP.good_example.FifteenOrTwentyPercent;
+import SRP.good_example.TeenOrTwentyPercent;
 
 public enum Office {
     DEV(new TeenOrTwentyPercent()),

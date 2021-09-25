@@ -1,4 +1,4 @@
-package bad_example;
+package SRP.bad_example;
 
 public class Employee {
     private Office office;

@@ -1,8 +1,8 @@
 package test;
 
-import bad_example.Employee;
-import bad_example.Office;
-import good_example.SalaryCalculation;
+import SRP.bad_example.Employee;
+import SRP.bad_example.Office;
+import SRP.good_example.SalaryCalculation;
 
 public class TestSalaryCalc {
 
