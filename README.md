@@ -13,4 +13,4 @@
 ## Acoplamento e o tal de DIP
 - [x] 3.1 Qual o problema dela?
 - [x] 3.2 Estabilidade de classes.
-- [ ] 3.3 Buscando por classes estáveis.
+- [X] 3.3 Buscando por classes estáveis.
