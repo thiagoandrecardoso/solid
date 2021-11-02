@@ -2,6 +2,9 @@ package OCP.good_example;
 
 import OCP.model.Compra;
 
+/*
+A classe agora esta aberta para extenssoes
+ */
 public class CalculadoraDePreco {
     private TabelaDePreco tabela;
     private ServicoDeEntrega entrega;
@@ -15,6 +18,6 @@ public class CalculadoraDePreco {
         double desconto = tabela.descontoPara(produto.getValor());
         double frete = entrega.para(produto.getCindade());
 
-        return produto.getValor() * (1 - desconto) + frete;
+        return produto.getValor() * (1 - (desconto/100)) + frete;
     }
 }

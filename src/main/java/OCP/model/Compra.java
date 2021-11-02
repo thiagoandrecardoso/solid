@@ -4,6 +4,11 @@ public class Compra {
     private double valor;
     private String cindade;
 
+    public Compra(String cidade, double valor) {
+        this.valor = valor;
+        this.cindade = cidade;
+    }
+
     public String getCindade() {
         return cindade;
     }
