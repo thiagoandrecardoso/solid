@@ -20,4 +20,7 @@
 - [X] 3.7 Conclusão
 
 ## Classes abertas e o tal do OCP
--[ ]  
+- [X] 4.1 Introdução
+- [X] 4.2 OCP princípio de Aberto-fechado
+- [X] 4.3 Classes extensíveis
+- [X] 4.4 A estabilidade agradece!
