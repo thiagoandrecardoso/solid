@@ -14,3 +14,10 @@
 - [x] 3.1 Qual o problema dela?
 - [x] 3.2 Estabilidade de classes.
 - [X] 3.3 Buscando por classes estáveis.
+- [X] 3.4 DIP
+- [X] 3.5 Um outro exemplo de acoplamentp
+- [X] 3.6 Depêndencias Lógicas 
+- [X] 3.7 Conclusão
+
+## Classes abertas e o tal do OCP
+-[ ]  
