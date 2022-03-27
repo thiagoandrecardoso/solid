@@ -1,4 +1,4 @@
-package DIP.bad;
+package DIP.bad.exe1;
 
 public class DIPTest {
     public static void main(String[] args) {

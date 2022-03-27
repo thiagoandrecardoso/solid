@@ -1,4 +1,4 @@
-package DIP.bad;
+package DIP.bad.exe1;
 
 public class Email {
     public void enviarEmail(Cliente cliente, String assunto, String mensagem) {

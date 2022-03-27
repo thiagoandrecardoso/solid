@@ -1,4 +1,4 @@
-package DIP.bad;
+package DIP.bad.exe1;
 
 public class SMS {
     public void enviarSMS(Cliente cliente, String mensagem) {
