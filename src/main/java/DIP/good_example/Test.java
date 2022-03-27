@@ -1,7 +1,6 @@
 package DIP.good_example;
 
 import DIP.bad_example.CommercialInvoice;
-import DIP.bad_example.Invoice;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +14,6 @@ public class Test {
         actions.add(dao);
 
         GenerateInvoice generateInvoice = new GenerateInvoice(actions);
-        Invoice invoice = generateInvoice.generate(new CommercialInvoice());
+        generateInvoice.generate(new CommercialInvoice());
     }
 }
