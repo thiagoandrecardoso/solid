@@ -1,7 +1,7 @@
-package DIP.good.model;
+package DIP.good.exe1.model;
 
-import DIP.good.interfaces.IContato;
-import DIP.good.interfaces.IMensagemCelular;
+import DIP.good.exe1.interfaces.IContato;
+import DIP.good.exe1.interfaces.IMensagemCelular;
 
 public class SMS implements IMensagemCelular {
     @Override

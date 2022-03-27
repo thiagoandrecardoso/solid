@@ -1,4 +1,4 @@
-package DIP.good.interfaces;
+package DIP.good.exe1.interfaces;
 
 public interface IContato {
     String getNome();

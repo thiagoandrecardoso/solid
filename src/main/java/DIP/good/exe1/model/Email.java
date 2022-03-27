@@ -1,7 +1,7 @@
-package DIP.good.model;
+package DIP.good.exe1.model;
 
-import DIP.good.interfaces.IContato;
-import DIP.good.interfaces.IEmail;
+import DIP.good.exe1.interfaces.IContato;
+import DIP.good.exe1.interfaces.IEmail;
 
 public class Email implements IEmail {
     @Override

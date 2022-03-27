@@ -1,9 +1,9 @@
-package DIP.good.test;
+package DIP.good.exe1.test;
 
-import DIP.good.factory.Factory;
-import DIP.good.interfaces.IContato;
-import DIP.good.interfaces.IEmail;
-import DIP.good.interfaces.IMensagemCelular;
+import DIP.good.exe1.factory.Factory;
+import DIP.good.exe1.interfaces.IContato;
+import DIP.good.exe1.interfaces.IEmail;
+import DIP.good.exe1.interfaces.IMensagemCelular;
 
 public class DIPTest {
     public static void main(String[] args) {
