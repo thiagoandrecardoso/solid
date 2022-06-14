@@ -1,17 +1,71 @@
 package ISP.model;
 
+import DIP.good.exe1.model.Cliente;
+
+import java.util.List;
+
 public class NotaFiscal {
-    private String numero;
+    private Cliente cliente;
+    private List<Item> items;
+    private List<Descontos> descontos;
+    private Endereco entrega;
+    private Endereco cobranca;
+    private FormaDePagamento pagamento;
+    private double valorTotal;
 
-    public NotaFiscal(String numero) {
-        this.numero = numero;
+    public Cliente getCliente() {
+        return cliente;
     }
 
-    public String getNumero() {
-        return numero;
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
+    }
+
+    public List<Descontos> getDescontos() {
+        return descontos;
+    }
+
+    public void setDescontos(List<Descontos> descontos) {
+        this.descontos = descontos;
+    }
+
+    public Endereco getEntrega() {
+        return entrega;
+    }
+
+    public void setEntrega(Endereco entrega) {
+        this.entrega = entrega;
+    }
+
+    public Endereco getCobranca() {
+        return cobranca;
+    }
+
+    public void setCobranca(Endereco cobranca) {
+        this.cobranca = cobranca;
+    }
+
+    public FormaDePagamento getPagamento() {
+        return pagamento;
+    }
+
+    public void setPagamento(FormaDePagamento pagamento) {
+        this.pagamento = pagamento;
+    }
+
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
+    public void setValorTotal(double valorTotal) {
+        this.valorTotal = valorTotal;
     }
 }
