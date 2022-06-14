@@ -8,4 +8,12 @@ public class Invoice {
         this.imposto = imposto;
         this.valor = valor;
     }
+
+    @Override
+    public String toString() {
+        return "Invoice{" +
+                "imposto=" + imposto +
+                ", valor=" + valor +
+                '}';
+    }
 }
