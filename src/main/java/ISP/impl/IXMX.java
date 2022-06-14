@@ -1,6 +1,7 @@
 package ISP.impl;
 
 import ISP.interfaces.ICalculadorDeImposto;
+import ISP.interfaces.Tributavel;
 import ISP.model.NotaFiscal;
 
 public class IXMX implements ICalculadorDeImposto {
@@ -10,7 +11,7 @@ public class IXMX implements ICalculadorDeImposto {
     }
 
     @Override
-    public double calcula(NotaFiscal nf) {
+    public double calcula(Tributavel t) {
         return 0;
     }
 }

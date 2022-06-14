@@ -1,10 +1,12 @@
 package ISP.model;
 
 import DIP.good.exe1.model.Cliente;
+import ISP.interfaces.Tributavel;
 
 import java.util.List;
 
-public class NotaFiscal {
+public class NotaFiscal implements Tributavel {
+
     private Cliente cliente;
     private List<Item> items;
     private List<Descontos> descontos;
@@ -12,6 +14,11 @@ public class NotaFiscal {
     private Endereco cobranca;
     private FormaDePagamento pagamento;
     private double valorTotal;
+
+    @Override
+    public List<Item> itensASeremTributados() {
+        return items;
+    }
 
     public Cliente getCliente() {
         return cliente;
