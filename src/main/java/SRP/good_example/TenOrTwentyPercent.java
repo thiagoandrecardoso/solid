@@ -2,13 +2,13 @@ package SRP.good_example;
 
 import SRP.bad_example.Employee;
 
-public class TeenOrTwentyPercent implements CalcRule {
+public class TenOrTwentyPercent implements CalcRule {
     @Override
     public double calc(Employee e) {
         if (e.getSalary() > 3000.0) {
-            return e.getSalary() * 0.1;
+            return e.getSalary() * 0.9;
         } else {
-            return e.getSalary() * 0.15;
+            return e.getSalary() * 0.8;
         }
     }
 }

@@ -6,8 +6,8 @@ import OCP.model.Compra;
 A classe agora esta aberta para extenssoes
  */
 public class CalculadoraDePreco {
-    private TabelaDePreco tabela;
-    private ServicoDeEntrega entrega;
+    private final TabelaDePreco tabela;
+    private final ServicoDeEntrega entrega;
 
     public CalculadoraDePreco(TabelaDePreco tabela, ServicoDeEntrega entrega) {
         this.tabela = tabela;
