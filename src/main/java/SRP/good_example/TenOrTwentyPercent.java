@@ -6,9 +6,9 @@ public class TenOrTwentyPercent implements CalcRule {
     @Override
     public double calc(Employee e) {
         if (e.getSalary() > 3000.0) {
-            return e.getSalary() * 0.9;
+            return e.getSalary() * 0.1;
         } else {
-            return e.getSalary() * 0.8;
+            return e.getSalary() * 0.2;
         }
     }
 }

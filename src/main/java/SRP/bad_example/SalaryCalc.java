@@ -18,7 +18,7 @@ public class SalaryCalc {
         if (employee.getSalary() > 3000.0) {
             return employee.getSalary() * 0.1;
         } else {
-            return employee.getSalary() * 0.15;
+            return employee.getSalary() * 0.2;
         }
     }
 
